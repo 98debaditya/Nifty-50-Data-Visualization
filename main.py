@@ -52,7 +52,7 @@ app.layout = dbc.Container(
                         html.Div(children="Performance Matrix"),
                         html.Div(id="table-container"),
                     ],
-                    width={"size": 2, "offset": 0}
+                    width={"size": 3, "offset": 0}
                 ),
                 dbc.Col(
                     dcc.Graph(id = 'main',figure=go.Figure()),
