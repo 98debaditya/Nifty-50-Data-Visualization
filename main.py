@@ -24,7 +24,6 @@ app.layout = dbc.Container(
                 dbc.Col(
                     [
                         html.Br(),
-                        html.Br(),
                         dbc.ButtonGroup(
                             [
                                 dbc.Button("Refresh Data", id="refresh-button"),
@@ -125,8 +124,8 @@ def button_click(n_clicks,sdate,eday,nn,invs):
                                 xaxis=dict(title='DATE'),
                                 yaxis=dict(title='EQUITY'),
                                 template='plotly_dark',
-                                height=900,
-                                width=1550,
+                                height=719,
+                                width=850,
                             )
                         )
             t = df.shape[0]/252
@@ -163,8 +162,8 @@ def button_click(n_clicks,sdate,eday,nn,invs):
                                 xaxis=dict(title='DATE'),
                                 yaxis=dict(title='EQUITY'),
                                 template='plotly_dark',
-                                height=900,
-                                width=1500
+                                height=719,
+                                width=850
                             )
                         )
             t = df.shape[0]/252
@@ -201,8 +200,8 @@ def button_click(n_clicks,sdate,eday,nn,invs):
                                 xaxis=dict(title='DATE'),
                                 yaxis=dict(title='EQUITY'),
                                 template='plotly_dark',
-                                height=900,
-                                width=1500
+                                height=719,
+                                width=850
                             )
                         )
             t = df.shape[0]/252
@@ -241,8 +240,8 @@ def button_click(n_clicks,sdate,eday,nn,invs):
                                 xaxis=dict(title='DATE'),
                                 yaxis=dict(title='EQUITY'),
                                 template='plotly_dark',
-                                height=900,
-                                width=1500,
+                                height=719,
+                                width=850,
                             )
                         )
             t = df.shape[0]/252
